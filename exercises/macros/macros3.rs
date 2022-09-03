@@ -11,7 +11,8 @@ mod macros {
         };
     }
 }
-
+// use crate::macros::*;
+#[derive(my_macro)]
 fn main() {
     my_macro!();
 }
